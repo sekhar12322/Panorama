@@ -1,0 +1,26 @@
+.h1-introduce .sc-img-box img {
+    transition: all 1s;
+}
+
+.icon-toggle{ display:none;}
+.owl-item .gallery a img:hover{transform:scale(1.1)}
+.owl-item{ margin:0px!important;}
+.owl-item .gallery a img{
+       display: block;
+    position: relative;
+    -webkit-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.book a{
+background:blue;
+padding:15px;
+color:#fff!important;
+position:fixed;
+top:35%;
+right:-5%;
+z-index:999999;
+    transform-origin: 0 0;
+    transform: rotate(-90deg);
+}
